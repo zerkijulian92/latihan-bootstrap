@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Forms Bootstrap</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h2 class="alert alert-primary text-center mt-2">FORMULIR PENDAFTARAN MAHASISWA BARU</h2>
+
+      <!-- Form dengan Input text menyamping -->
+     <!--  <form>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-3">
+              <label for="namaLengkap">Nama Lengkap</label>
+            </div>
+            <div class="col-md-9">
+               <input id="namaLengkap" type="text" name="" class="form-control" placeholder="Masukan Nama Lengkap Anda">
+            </div>
+          </div>
+        </div>
+      </form> -->
+
+      <!-- Dafault Form Bootstrap -->
+      <form>
+        <div class="form-group">
+          <label for="namaLengkap">Nama Lengkap</label>
+          <input type="text" class="form-control" id="namaLengkap" placeholder="Masukan Nama Lengkap Anda">
+        </div>
+
+        <div class="form-group">
+          <label for="masukanEmail">Email</label>
+          <input type="email" class="form-control" id="masukanEmail" placeholder="Masukan Email Anda">
+        </div>
+
+        <div class="form-group">
+          <label for="masukanPassword">Password</label>
+          <input type="password" class="form-control" id="masukanPassword" placeholder="Masukan Password Anda">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="tempatLahir">Tempat Lahir</label>
+               <input type="text" class="form-control" id="tempatLahir" placeholder="Masukan Tempat Lahir Anda">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="tglLahir">Tanggal Lahir</label>
+              <input type="date" class="form-control" id="tglLahir">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Pilih Jurusan</label>
+          <select class="form-control">
+            <option>1. Teknik Informatika</option>
+            <option>2. Manajemen Informatika</option>
+            <option>3. Sisten Informasi</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="alasanMemilih">Alasan Memilih AMIK Kosgoro Solok</label>
+          <textarea class="form-control" rows="6"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Jenis Kelamin</label><br>
+          <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="jkRadio" id="jkRadio1" checked="" >
+            <label class="form-check-label" for="jkRadio1">Laki-laki</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="radio" class="form-check-input" name="jkRadio" id="jkRadio2">
+            <label class="form-check-label" for="jkRadio2">Perempuan</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Upload Dokumen</label>
+          <input type="file" class="form-control-file">
+          <small>*Upload File dengan Ukuran Maksimal 2 MB</small>
+        </div>
+
+        <button type="submit" class="btn btn-primary">SIMPAN</button>
+        <button type="reset" class="btn btn-danger">RESET</button>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
